@@ -16,7 +16,7 @@
     (dissoc component :publication :channel)))
 
 (defn new-pubsub
-  "'channel-fn` is a funtion that receives the component as argument,
+  "'channel-fn` is a function that receives the component as argument,
   so that you are free to implement application-level logic with
   dependencies in scope. The function is responsible to create a
   channel and to return it. Presumably, you will be writing to the
